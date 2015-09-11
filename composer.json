@@ -1,0 +1,36 @@
+{
+    "name": "wbraganca/yii2-ace-widget",
+    "version": "1.0.0",
+    "description": "Yii2 Ace (Ajax.org Cloud9 Editor) Widget",
+    "keywords": [
+        "yii2",
+        "ACE",
+        "ace-editor",
+        "Cloud9 Editor"
+    ],
+    "minimum-stability": "dev",
+    "license": "BSD-3-Clause",
+    "type": "yii2-extension",
+    "homepage": "https://github.com/wbraganca/yii2-ace-widget",
+    "support": {
+        "issues": "https://github.com/wbraganca/yii2-ace-widget/issues",
+        "wiki": "https://github.com/wbraganca/yii2-ace-widget/wiki/",
+        "source": "https://github.com/wbraganca/yii2-ace-widget"
+    },
+    "authors": [
+        {
+            "name": "Wanderson Bragança",
+            "email": "wanderson.wbc@gmail.com",
+            "homepage": "http://wbraganca.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.5",
+        "bower-asset/ace-builds": "~1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "wbraganca\\AceEditor\\": "src/"
+        }
+    }
+}
